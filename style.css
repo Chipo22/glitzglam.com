@@ -1,0 +1,73 @@
+.textin{
+    background-image: url("1.jpg");
+}
+#header{
+    background-image: url("1.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+body {
+    font-family: "Audiowide", sans-serif;
+  }
+h2{
+    color: rgb(232, 120, 23);
+}
+footer h4{
+    color: rgb(248, 54, 161);
+}
+nav{
+    padding-left: 40px;
+}
+.btn .nav-link:hover{
+    color: white;
+}
+.nav-link:hover{
+    border-bottom: 1px solid rgb(232, 23, 138);
+    color: rgb(0, 0, 0);
+}
+#act{
+    border-bottom: 1px solid rgb(232, 23, 138);
+}
+.nav-link:active{
+   color: rgb(232, 23, 138);
+}
+.nav-link{
+    font-family: 'Comic Sans MS';
+    
+}
+h3{
+    font-family: 'Comic Sans MS';
+}
+.nav-link a{
+    
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: 20px
+}
+@media only screen and (max-width: 780px){
+
+    nav{
+        padding-left: 40px;
+        border-bottom: 1px solid black;
+    }
+    footer{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 560px){
+    .offcanvas-body{
+        background-color: rgb(255, 255, 255);
+    }
+    .offcanvas-header{
+        background-color: rgb(255, 255, 255);
+        border-bottom: 1px solid gray;
+    }
+    nav{
+        padding-left: 40px;
+    }
+    footer{
+        text-align: center;
+    }
+}

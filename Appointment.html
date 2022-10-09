@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Glitz and Glam</title>
+  <link rel="icon" href="images/GNG.jpg">
+<!-- Mirrored from www.w3schools.com/w3css/tryw3css_templates_blog.htm by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 01:33:10 GMT -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="script.js" type="text/javascript"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function(){
+     emailjs.init("user_z6aThWwVjzpM9ktPq");
+  })();
+</script>
+</head>
+<body>
+  <section id="header">
+  <nav class="navbar navbar-light navbar-expand-sm ">
+    <div class="container-fluid">
+      <a class="navbar-brand justify-content-end" href="#">
+       <img src="images/GNG.png" alt="logo" width="100%">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <a class="navbar-brand justify-content-end" href="index.html">
+              <img src="images/SEWC.png" alt="logo" width="70px">
+             </a>
+          </h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 " style="margin-right: 100px;">
+              <li class="nav-item">
+                  <a class="nav-link text-primary" aria-current="page" href="index.html">HOME</a>
+                </li>
+            <li class="nav-item ">
+              <a class="nav-link text-primary" href="About.html">ABOUT US</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-primary" href="Services.html" >
+                SERVICES
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" aria-current="page" href="Hair.html">HAIR PRODUCTS</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-primary" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-primary" href="vacancies.html">VACANCIES</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-primary" href="Gallery.html" >
+                GALLERY
+              </a>
+              
+            </li>
+          </ul>
+          
+        </div>
+      </div> 
+    </div>
+
+  </nav>
+   
+</section>
+<div class="container">   
+
+    <div class="container">   
+        <div class="row ">
+          <div class="col-lg-3 text-center">
+          </div>
+            <div class="col-lg-6 text-center">
+              <div class="card p-3">
+                <h3 class="border-bottom">Book appointment below:</h3>
+                <div class="card-body p-1">
+              
+                    <form class="m-4">
+                        <input type="text" class="form-control m-3" placeholder="Enter full name:" id="name">
+                        <input type="contact" class="form-control m-3" placeholder="Contact details:" id="contact">
+                          <select class="form-control m-3" placeholder="Enter full name:" name="Services" id="Services">
+                              <option value="Services"> Services:</option>
+                            <option value="Manicure and pedicure"> Manicure and pedicure</option>
+                            <option value=" Hair styling"> Hair styling</option>
+                            <option value="casual make up">casual make up</option>
+                            <option value="Hair braiding">Hair braiding</option>
+                          </select>
+                        <label for="Date">Date:</label>
+                        <input type="date" class="form-control m-3" placeholder="date" id="date" name="date">
+                        <label for="time">Select a time:</label>
+                        <input type="time" class="form-control m-3" id="time" name="time"><br><br>
+                        <button onclick="alert('Appointment submitted successfully!')" type="submit" class="btn btn-outline-primary">Submit</button>
+                      </form>
+                    </div> 
+                  </div>     
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+    
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccE 19eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
